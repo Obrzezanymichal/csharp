@@ -1,0 +1,59 @@
+namespace _7zadancsharp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //ZADANIE 1-------------------
+
+            //int[] Liczby = { 1, 2, 3, 4, 6, 10};
+            //int suma = 0;
+            //for (int i = 0; i < Liczby.Length; i++)
+            //{
+            //    suma = suma + Liczby[i];
+
+            //}
+            //Console.WriteLine("Suma elementów wynosi: " + suma);
+
+
+            //ZADANIE 2------------------------------------------
+
+            //int[] Wartosci = { 2, 3, 4, 5, 7 };
+            //int max = Wartosci[0];
+            //int min = Wartosci[0];
+
+            //for (int i = 1; i < Wartosci.Length; i++)
+            //{
+
+            //    if (Wartosci[i] > max)
+            //    {
+            //        max = Wartosci[i];
+            //    }
+
+            //    if (Wartosci[i] < min)
+            //    {
+            //        min = Wartosci[i];
+            //    }
+
+            //}
+            //Console.WriteLine("maksymalna liczba to: " + max);
+            //Console.WriteLine("maksymalna liczba to: " + min);
+
+
+            //ZADANIE 3------------------
+            //string[] Imiona = {"stefan", "maciek", "miki"};
+            //for (int i = Imiona.Length - 1; i >= 0; i--)
+            //{
+            //    Console.WriteLine(Imiona[i]);
+            //}
+
+            //ZADANIE 4 ----------------------
+            int[] Liczby = { 432, 4, 32, 456, 643 };
+            int licznik = Liczby[0];
+            foreach (licznik in Liczby)
+            {
+                if (Liczby % 2 == 0; licznik);
+            }
+        }
+    }
+}
